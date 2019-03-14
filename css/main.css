@@ -1,0 +1,69 @@
+body {
+  background-color: #d8d6d6;
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+}
+
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.edit, .delete, .add{
+    border: 2px solid #596759;
+    border-radius: 11%;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edit{
+	background-color: #6a9eaf;
+}
+
+.delete{
+	background-color: #f33333;
+}
+
+.add{
+	background-color: #699e6b;
+}
+
+.container{
+	width: 50%;
+    display: inline-block;
+}
+
+.titulo{
+	color: #9e5d5d;
+}
+
+#completed-tasks label {
+	text-decoration: line-through;
+}
+
+#new-task{
+	border: 2px solid #716565;
+    border-radius: 10px;
+    margin: 1.5em;
+    height: 2em;
+    width: 29em;
+}
+
+#new-task:focus {
+  border: 2px solid #1c8a2a;
+  border-radius: 10px;
+}
+
+
